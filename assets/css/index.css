@@ -1,0 +1,46 @@
+*{padding: 0;margin:0;}
+ul li{list-style: none;}
+.period {
+    position: relative;
+    margin: 20px auto 20px 40px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    z-index: 5;
+}
+.period-con {
+    display: inline-block;
+    padding-right: 20px;
+    cursor: default;
+}
+.period-popup {
+    position: absolute;
+    top: -5px;
+    left: 355px;
+    z-index: 10;
+    background-color: #666;
+    color: #ccc;
+    overflow: hidden;
+    max-height: 177px;
+}
+.period-popup ul {
+    padding: 1px;
+}
+.period-popup ul li {
+    width: auto !important;
+    line-height: 35px !important;
+    font-size: 12px !important;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 35px !important;
+}
+.period-popup ul li.cur {
+    background-color: #dcdcdc;
+    color: #666;
+}
+.period-popup ul li.cur span {
+    position: static;
+    margin: 0;
+    display: inline;
+    border: none;
+}
