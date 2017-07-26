@@ -45,7 +45,6 @@
             this.$scrollWrap.css({
                 width: this.scrollConWidth + param.scrollBarWidth
             });
-            console.log(this.scrollConWidth + param.scrollBarWidth)
         };
 
         scrollFun.prototype = {
